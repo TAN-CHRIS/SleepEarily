@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Example of a call to a native method
-        TextView tv = (TextView) findViewById(R.id.sample_text);
+        TextView tv = (TextView) findViewById(R.id.editText);       //bug的原因：这里的editText是activity_main.xml左下角component Tree里的元素名，之前模板里的被删掉之后这里没有改所以报错了，现在已经ok了
         tv.setText(stringFromJNI());
     }
 
