@@ -4,7 +4,7 @@ android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.example.chris.sleepearily"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -35,4 +35,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    // https://mvnrepository.com/artifact/com.qmuiteam/qmui
+    implementation group: 'com.qmuiteam', name: 'qmui', version: '1.1.7'        //QMIUI
+    //replace compile with 'implementation' or 'api', see: http://d.android.com/r/tools/update-dependency-configurations.html
 }
