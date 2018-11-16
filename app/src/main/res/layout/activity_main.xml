@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:background="@drawable/background"
+    android:fitsSystemWindows="true"
     >
 
     <TextView
@@ -37,11 +38,13 @@
         app:hoveredFocusedTranslationZ="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.424"
+        app:layout_constraintVertical_bias="0.755"
         app:maxImageSize="70dp"
         app:pressedTranslationZ="10dp"
-        app:srcCompat="@android:drawable/ic_menu_compass" />
+        app:srcCompat="@android:drawable/ic_menu_compass"
+        android:focusable="true" />
 
 </android.support.constraint.ConstraintLayout>
