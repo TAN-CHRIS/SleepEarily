@@ -11,9 +11,10 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="213dp"
-        android:layout_height="111dp"
-        android:text="Welcome!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:text="@string/welcome"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Headline3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,6 +31,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:clickable="true"
+        android:focusable="true"
         android:onClick="GoToMainNavi"
         app:backgroundTint="@color/qmui_drawable_color_list_pressed"
         app:elevation="10dp"
@@ -40,11 +42,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.755"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.943"
         app:maxImageSize="70dp"
         app:pressedTranslationZ="10dp"
-        app:srcCompat="@android:drawable/ic_menu_compass"
-        android:focusable="true" />
+        app:srcCompat="@android:drawable/ic_menu_compass" />
 
 </android.support.constraint.ConstraintLayout>

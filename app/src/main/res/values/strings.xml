@@ -24,4 +24,8 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="fa_car">&#xf1b9;</string>
+    <string name="fa_apple">&#xf179;</string>
+    <string name="fa_android">&#xf17b;</string>
+    <string name="welcome">Touch To \n Get Start!</string>
 </resources>
