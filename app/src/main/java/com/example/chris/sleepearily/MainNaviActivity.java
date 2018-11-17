@@ -20,7 +20,7 @@ public class MainNaviActivity extends AppCompatActivity {
             switch (item.getItemId()) {
                 case R.id.navigation_home:
                     //mTextMessage.setText(R.string.title_home);
-                    setContentView(R.layout.fragment_blank);
+                    setContentView(R.layout.activity_player);
                     return true;
                 case R.id.navigation_dashboard:
                     //mTextMessage.setText(R.string.title_dashboard);
